@@ -39,3 +39,11 @@ int main()
 
     return 0;
 }
+
+// // Alternative Solution 1
+// bool checkEnding(std::string str1, std::string str2){
+//     if (str2.compare(str1.substr(str1.length() - str2.length())) == 0)
+//         return true;
+//     else
+//         return false;
+// }
